@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+       
+        <nav class="navbar  navbar-expand-lg  navbar-dark ">
+            <div class="container ">
+              <a class="navbar-brand d-flex ms-5  " href="#"> <img class="logo " width="64" height="38" src="logo@2x.png" alt=""> 
+            <div class="info px-3">
+                <h1 class=" text-white fs-6 mb-1 ">Weather</h1>
+                <small>tagline goes here</small>
+            </div> 
+        </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="  collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="  navbar-nav ms-auto p-5">
+                  <a class=" lists nav-link px-4 active" aria-current="page" href="#">Home</a>
+                  <a class=" lists nav-link px-4" href="#">News</a>
+                  <a class=" lists nav-link px-4" href="#">Lives cameras</a>
+                  <a class=" lists nav-link px-4" href="#">Photo</a>
+                  <a class=" lists nav-link px-4" href="#">Contact</a>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div class="content ">
+            <div class="container">
+                <form class="find " >
+                    <input class="my-5" type="text"placeholder="Find your location..." id="search">
+                    <input class="text-white " type="button" value="Find" id="find">
+                </form>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 first ">
+                        <div id="today">
+                            
+                            
+
+                        </div>
+                       
+                       
+                        <div class="weather-footer" id="footer">
+                          
+                        </div>
+                       
+                    </div>
+                    
+
+                    <div class="col-md-4 between">
+                        <div class="day text-center" id="tomorrowDay">
+                           
+                           
+                        </div>
+
+                        <div class="futur-weather text-center" id="tomorrow">
+                            
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 first">
+                        <div class="day text-center" id="afterTomorrowDay" >
+                            
+                           
+                        </div>
+
+                        <div class="futur-weather text-center " id="after-tomorrow">
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+          
+
+            
+      </section>
+
+
+      <footer>
+        <form action="">
+        </form>
+      </footer>
+   
+
+    
+      
+    
+
+    
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

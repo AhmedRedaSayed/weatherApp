@@ -1,0 +1,98 @@
+body
+{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    background: rgb(30, 32, 43);
+    color: rgb(191, 193, 200);
+
+
+
+}
+
+
+.navbar 
+{
+    background-color: #1e202b !important;
+
+}
+.info
+{
+     
+        font-size: 10px;
+        font-size: 0.7142857143em;
+        color: #bfc1c8;
+      
+}
+
+.lists 
+{
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.lists  {
+  padding: 5px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  transition: all 0.3s;
+
+  
+}
+
+  .lists:hover,
+.lists.active {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+  
+.content
+{
+    background-image: url(../banner.png);
+    height: 50vh;
+    background-size: cover; 
+}
+
+.find
+{
+    position: relative;
+   
+
+}
+.content input[type="text"] {
+    width: 100%;
+    color: white;
+    padding: 10px 40px 20px 20px;
+    background: rgb(30, 32, 43);
+    border-radius: 30px;
+}
+.content input[type="button"] {
+    background: rgb(0, 154, 216);
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 53px;
+    right: 5px;
+   
+}
+
+.first
+
+{    
+    
+    background-color: #323544 ;
+
+}
+.between
+{
+
+    background-color: #262936;
+
+
+}
+
+
+
+
+
+
